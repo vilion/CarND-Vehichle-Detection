@@ -116,4 +116,3 @@ Here's an example result showing the heatmap from a series of frames of video, t
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 スケールを 1 にした場合、車との距離が近いことにより大きく表示された際に、車が検出されませんでした。ですので、スケールを 1.5 といたしました。
-また、明るい場所の白い車は判別がつかない場合があるようでした。強調処理など、何らかの画像処理を前もって行うとロバストになるかもしれないです。
